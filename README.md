@@ -242,14 +242,14 @@ The protocol is analyzed under two threat models:
 |---|---------------|-----------------|---------------|
 | 1 | security_password | ✅ Verified (7.77s) | ❌ Falsified |
 | 2 | security_jesssionID | ❌ Falsified | ❌ Falsified |
-| 3 | security_ST | ✅ Verified (11.83s) | ✅ Verified (11.75s) |
-| 4 | security_tgt | ✅ Verified (6.32s) | ✅ Verified (6.59s) |
+| 3 | security_ST | ✅ Verified (9.72s) | ✅ Verified (10.66s) |
+| 4 | security_tgt | ✅ Verified (7.81s) | ✅ Verified (8.14s) |
 | 5 | security_source | ❌ Falsified | ❌ Falsified |
-| 6 | injective_agree_ST | ✅ Verified (23.91s) | ✅ Verified (25.11s) |
-| 7 | injective_agree_TGT | ✅ Verified (12.56s) | ✅ Verified (12.84s) |
-| 8 | injective_agree_JID | ✅ Verified (41.39s) | ✅ Verified (40.97s) |
-| 9 | injective_agree_source | ✅ Verified (35.23s) | ✅ Verified (34.49s) |
-| 10 | SP_authentication | ✅ Verified (8.01s) | ❌ **Falsified (Trust Erosion Attack)** ⚠️ |
+| 6 | injective_agree_ST | ✅ Verified (6.20s) | ✅ Verified (7.17s) |
+| 7 | injective_agree_TGT | ✅ Verified (6.24s) | ✅ Verified (7.42s) |
+| 8 | injective_agree_JID | ✅ Verified (11.58s) | ✅ Verified (20.26s) |
+| 9 | injective_agree_source | ✅ Verified (32.16s) | ✅ Verified (44.05s) |
+| 10 | SP_authentication | ✅ Verified (20.44s) | ❌ **Falsified (Trust Erosion Attack)** ⚠️ |
 
 **Key Findings:**
 
