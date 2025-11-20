@@ -9,6 +9,7 @@ Formal verification of the **CAS (Central Authentication Service) Single Sign-On
 ## 📖 Reference
 
 **Paper**: *Trust Erosion Attack in Zero-Trust: Formal Verification of the CAS Protocol under Component Compromise*
+*Manuscript submitted to the **[International Symposium on Formal Methods 2026](https://conf.researchr.org/home/fm-2026)**.*
 
 ## 📁 Repository Structure
 
