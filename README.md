@@ -5,6 +5,7 @@
 > Our handy `install_dependencies.sh` script uses `apt-get`. Running CentOS, Fedora, or another flavor? No worries—just follow the manual installation steps below!
 
 Formal verification of the **CAS (Central Authentication Service) Single Sign-On Protocol** using Tamarin Prover. We found some interesting attacks—keep reading!
+<img width="5306" height="1263" alt="Tamarin(1)" src="https://github.com/user-attachments/assets/a8463983-1bce-4c6c-a6ea-7d736e426fdd" />
 
 ## 📖 Reference
 
@@ -273,6 +274,8 @@ The protocol is analyzed under two threat models:
 **Property:** `SP_compromise_SP_authentication`
 
 **What's happening:** A compromised Service Provider can covertly redirect users who are attempting to access it to other Service Providers without their knowledge.
+
+<img width="4100" height="3069" alt="CASattack6" src="https://github.com/user-attachments/assets/1c5ac7a9-f745-47f1-a3ca-ecdb68848c9c" />
 
 **Attack Scenarios:**
 
