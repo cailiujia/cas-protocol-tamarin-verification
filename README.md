@@ -285,7 +285,8 @@ The protocol is analyzed under two threat models:
 1. **Low-value to High-value Service Escalation**
    - User intends to request low-value services from a malicious SP
    - Gets deceived into requesting services from a high-value SP instead
-   
+   - The zero-trust TA algorithm detects this unauthorized access escalation and dynamically downgrades the user's trust value
+    
 2. **Low-risk to High-risk System Operation**
    - User sends operation commands to a low-risk system (compromised as malicious SP)
    - Gets deceived into sending these operations to a high-risk system
