@@ -22,7 +22,6 @@ We found some interesting attacks—keep reading!
 CAS/
 ├── README.md                      # This file
 ├── CAS_SSO.spthy                  # Tamarin model
-├── samplepaper.tex                # Research paper (LaTeX source)
 ├── install_dependencies.sh        # Automated dependency installation ⭐
 ├── verify_all.sh                  # Automated verification script ⭐
 ├── result/                        # All attack traces (all solutions mode)
